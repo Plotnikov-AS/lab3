@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: "jdbc:mysql://${MYSQL_HOST:localhost}:3306/lab3_schema"
+    username: root
+    password: root
