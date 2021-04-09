@@ -1,4 +1,4 @@
-package ru.pis.lab3.reader;
+package ru.pis.lab3.service;
 
 import com.opencsv.CSVReader;
 import lombok.RequiredArgsConstructor;

@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.pis.lab3.reader.CourseService;
+import ru.pis.lab3.service.CourseService;
 
 @Controller
 @RequiredArgsConstructor
